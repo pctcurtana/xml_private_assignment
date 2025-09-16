@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital xmlns="http://example.com/hospital"
+          xmlns:pat="http://example.com/patient"
+          xmlns:doc="http://example.com/doctor"
+          xmlns:app="http://example.com/appointment">
+
+<!-- attribute không có prefix thì không nằm trong default namespace -->
+  <!-- Cuộc hẹn 1 -->
+  <app:appointment app:id="APPT001" app:date="2025-09-16" app:status="Đã khám">
+    <pat:patient pat:id="P001" pat:name="Nguyễn Văn A" pat:dob="1985-06-12" />
+    <doc:doctor doc:id="D001" doc:name="Dr. Lê Thị B" doc:specialty="Nội tổng quát" />
+  </app:appointment>
+
+  <!-- Cuộc hẹn 2 -->
+  <app:appointment app:id="APPT002" app:date="2025-09-17" app:status="Chưa khám">
+    <pat:patient pat:id="P002" pat:name="Trần Thị C" pat:dob="1992-11-03" />
+    <doc:doctor doc:id="D002" doc:name="Dr. Phạm Văn D" doc:specialty="Sản - Phụ khoa" />
+  </app:appointment>
+
+  <!-- Cuộc hẹn 3 (ví dụ thêm để đa dạng) -->
+  <app:appointment app:id="APPT003" app:date="2025-09-18" app:status="Đã khám">
+    <pat:patient pat:id="P003" pat:name="Lê Văn E" pat:dob="1978-01-20" />
+    <doc:doctor doc:id="D001" doc:name="Dr. Lê Thị B" doc:specialty="Nội tổng quát" />
+  </app:appointment>
+
+</hospital>

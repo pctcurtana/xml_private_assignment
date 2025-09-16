@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien>
+  <sach>
+    <title>Chiến tranh và hòa bình</title>
+    <author>Lev Tolstoy</author>
+    <year>1869</year>
+    <genre>Tiểu thuyết lịch sử</genre>
+  </sach>
+
+  <sach>
+    <title>Nhà giả kim</title>
+    <author>Paulo Coelho</author>
+    <year>1988</year>
+    <genre>Tiểu thuyết triết lý</genre>
+  </sach>
+
+  <sach>
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <year>2008</year>
+    <genre>Kỹ thuật phần mềm</genre>
+  </sach>
+
+  <sach>
+    <title>Số đỏ</title>
+    <author>Vũ Trọng Phụng</author>
+    <year>1936</year>
+    <genre>Tiểu thuyết châm biếm</genre>
+  </sach>
+</thuvien>

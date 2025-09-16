@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order"
+        xmlns:prod="http://company.com/product">
+  
+  <!-- Đơn hàng 1 -->
+  <order:order>
+    <order:id>DH001</order:id>
+    <order:customer>Nguyễn Văn A</order:customer>
+    <order:date>2025-09-16</order:date>
+
+    <order:products>
+      <!-- Sản phẩm lưu thông tin bằng attributes -->
+      <prod:product id="SP001" quantity="2" price="199000" currency="VND" />
+      <prod:product id="SP002" quantity="1" price="4990000" currency="VND" />
+      <prod:product id="SP003" quantity="3" price="49.99" currency="USD" />
+    </order:products>
+  </order:order>
+
+  <!-- Đơn hàng 2 -->
+  <order:order>
+    <order:id>DH002</order:id>
+    <order:customer>Trần Thị B</order:customer>
+    <order:date>2025-09-15</order:date>
+
+    <order:products>
+      <prod:product id="SP002" quantity="2" price="4990000" currency="VND" />
+      <prod:product id="SP004" quantity="1" price="350000" currency="VND" />
+    </order:products>
+  </order:order>
+
+  <!-- Đơn hàng 3 (thêm để đa dạng) -->
+  <order:order>
+    <order:id>DH003</order:id>
+    <order:customer>Phạm Văn C</order:customer>
+    <order:date>2025-09-14</order:date>
+
+    <order:products>
+      <prod:product id="SP005" quantity="5" price="129000" currency="VND" />
+      <prod:product id="SP003" quantity="1" price="49.99" currency="USD" />
+      <prod:product id="SP001" quantity="1" price="199000" currency="VND" />
+    </order:products>
+  </order:order>
+
+</orders>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:course="http://example.com/course"
+         xmlns:instructor="http://example.com/instructor"
+         xmlns:student="http://example.com/student">
+  
+  <!-- Khóa học 1 -->
+  <course:course id="C001" title="Lập trình JavaScript từ cơ bản đến nâng cao" category="Lập trình">
+    <!-- Giảng viên (dưới dạng attribute) -->
+    <instructor:instructor id="I001" name="Nguyễn Văn Giảng" email="ng.vgiang@example.com" />
+    
+    <!-- Danh sách sinh viên (mỗi sinh viên dùng attributes) -->
+    <student:students>
+      <student:student id="S001" name="Trần Văn A" progress="75" />
+      <student:student id="S002" name="Lê Thị B" progress="90" />
+      <student:student id="S003" name="Phạm Văn C" progress="45" />
+    </student:students>
+  </course:course>
+
+  <!-- Khóa học 2 -->
+  <course:course id="C002" title="Thiết kế UI/UX cơ bản" category="Thiết kế">
+    <instructor:instructor id="I002" name="Hoàng Thị Hồng" email="hong.ht@example.com" />
+    <student:students>
+      <student:student id="S004" name="Ngô Minh D" progress="60" />
+      <student:student id="S005" name="Đặng Thùy E" progress="82" />
+    </student:students>
+  </course:course>
+
+</catalog>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- khai báo namespace -->
+<company xmlns:hr="http://company.com/hr"
+         xmlns:dep="http://company.com/department">
+  <!-- Phòng 1 -->
+  <dep:department>
+    <dep:name>Phòng Kỹ thuật</dep:name>
+
+    <hr:employee>
+      <hr:name>Nguyễn Văn A</hr:name>
+      <hr:id>NV001</hr:id>
+      <hr:position>Senior Software Engineer</hr:position>
+    </hr:employee>
+
+    <hr:employee>
+      <hr:name>Trần Thị B</hr:name>
+      <hr:id>NV002</hr:id>
+      <hr:position>DevOps Engineer</hr:position>
+    </hr:employee>
+  </dep:department>
+
+  <!-- Phòng 2 -->
+  <dep:department>
+    <dep:name>Phòng Kinh doanh</dep:name>
+
+    <hr:employee>
+      <hr:name>Phạm Văn C</hr:name>
+      <hr:id>NV003</hr:id>
+      <hr:position>Account Manager</hr:position>
+    </hr:employee>
+
+    <hr:employee>
+      <hr:name>Lê Thị D</hr:name>
+      <hr:id>NV004</hr:id>
+      <hr:position>Sales Executive</hr:position>
+    </hr:employee>
+  </dep:department>
+</company>

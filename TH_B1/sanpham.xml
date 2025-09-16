@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cuaHang>
+  <sanpham id="SP001" name="Điện thoại XYZ" category="Điện tử" price="7990000" currency="VND" />
+  <sanpham id="SP002" name="Áo thun Basic" category="Thời trang" price="199000" currency="VND" />
+  <sanpham id="SP003" name="Tai nghe Bluetooth" category="Điện tử" price="49.99" currency="USD" />
+</cuaHang>
