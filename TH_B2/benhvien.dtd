@@ -1,0 +1,16 @@
+<!ELEMENT hospital (app:appointment+)>
+<!ELEMENT app:appointment (pat:patient, doc:doctor)>
+<!ATTLIST app:appointment
+    app:id CDATA #REQUIRED
+    app:date CDATA #REQUIRED
+    app:status CDATA #REQUIRED>
+<!ELEMENT pat:patient EMPTY>
+<!ATTLIST pat:patient
+    pat:id CDATA #REQUIRED
+    pat:name CDATA #REQUIRED
+    pat:dob CDATA #REQUIRED>
+<!ELEMENT doc:doctor EMPTY>
+<!ATTLIST doc:doctor
+    doc:id CDATA #REQUIRED
+    doc:name CDATA #REQUIRED
+    doc:specialty CDATA #REQUIRED>

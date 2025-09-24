@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company SYSTEM "/TH_B2/nhansu.dtd">
+
 <!-- khai báo namespace -->
 <company xmlns:hr="http://company.com/hr"
          xmlns:dep="http://company.com/department">

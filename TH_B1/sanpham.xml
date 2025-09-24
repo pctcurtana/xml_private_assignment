@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuaHang SYSTEM "/TH_B2/sanpham.dtd">
+
 <cuaHang>
   <sanpham id="SP001" name="Điện thoại XYZ" category="Điện tử" price="7990000" currency="VND" />
   <sanpham id="SP002" name="Áo thun Basic" category="Thời trang" price="199000" currency="VND" />

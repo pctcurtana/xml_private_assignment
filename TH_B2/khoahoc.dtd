@@ -1,0 +1,17 @@
+<!ELEMENT catalog (course:course+)>
+<!ELEMENT course:course EMPTY>
+<!ATTLIST course:course
+    id CDATA #REQUIRED
+    title CDATA #REQUIRED
+    category CDATA #REQUIRED>
+<!ELEMENT instructor:instructor EMPTY>
+<!ATTLIST instructor:instructor
+    id CDATA #REQUIRED
+    name CDATA #REQUIRED
+    email CDATA #REQUIRED>
+<!ELEMENT student:students (student:student+)>
+<!ELEMENT student:student EMPTY>
+<!ATTLIST student:student
+    id CDATA #REQUIRED
+    name CDATA #REQUIRED
+    progress CDATA #IMPLIED>
